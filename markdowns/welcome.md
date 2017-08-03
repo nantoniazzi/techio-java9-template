@@ -7,7 +7,7 @@ The source code is on [GitHub](https://github.com/TechDotIO/java-template), plea
 
 # Hands-on Demo
 
-@[]({"stubs":["run.sh"], "command":"/bin/bash run.sh"})
+@[]({"stubs":["run.sh", "src/main/java/com/yourself/Universe.java"], "command":"/bin/bash run.sh"})
 
 @[Luke, how many stars are there in these galaxies?]({"stubs": ["src/main/java/com/yourself/Universe.java"], "command": "com.yourself.UniverseTest#test"})
 
