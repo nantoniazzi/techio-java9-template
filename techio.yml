@@ -16,5 +16,6 @@ projects:
     # Set the docker image. This image runs JUnit tests using this syntax:
     # @[Code Editor Title]({"stubs": ["EditorFile1.java", "EditorFile2.java", ...], "command": "MyJUnitClass#myMethod"})
     # More details here: https://github.com/TechDotIO/java-maven3-junit4-runner
-    buildCommand: mvn -Dmaven.repo.local=/project/target test
-    runner: maven:3-jdk-9
+    #buildCommand: mvn -Dmaven.repo.local=/project/target test
+    runner: nantoniazzi/java-maven3-junit4-runner:1.1.6-java-9
+#maven:3-jdk-9
